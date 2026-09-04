@@ -5,15 +5,9 @@
   "mods": [
     {
       "name": "Plasmo Voice",
-      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/example/plasmovoice-neoforge-2.1.0.jar",
-      "sha256": "ЗАМЕНИ_НА_РЕАЛЬНЫЙ_ХЕШ",
+      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/zMpeWebP/plasmovoice-neoforge-1.21.1-2.1.16.jar?mr_download_reason=standalone",
+      "sha256": "a40437eb049a719a85e55897ae03ab4b49e3730ee3c29a11c4362daba582603d",
       "side": "both"
-    },
-    {
-      "name": "Figura",
-      "url": "https://cdn.modrinth.com/data/figura/versions/example/figura-neoforge-0.1.4.jar",
-      "sha256": "ЗАМЕНИ_НА_РЕАЛЬНЫЙ_ХЕШ",
-      "side": "client"
     }
   ],
   "serverMods": [
@@ -25,9 +19,17 @@
     }
   ],
   "tunnels": [
-    { "name": "Minecraft", "localPort": 25565, "proto": "tcp" },
-    { "name": "Plasmo Voice", "localPort": 24454, "proto": "udp" },
-    { "name": "Figura", "localPort": 25569, "proto": "tcp" }
+    {
+      "name": "Minecraft",
+      "localPort": 25565,
+      "proto": "tcp"
+    },
+    {
+      "name": "Plasmo Voice",
+      "localPort": 24454,
+      "proto": "udp"
+    }
   ],
-  "adminPasswordHash": "ЗАМЕНИ_НА_BCRYPT_ХЕШ"
+  "adminPasswordHash": "ЗАМЕНИ_НА_BCRYPT_ХЕШ",
+  "_cachedAt": 1788520231742
 }
