@@ -1,6 +1,6 @@
 {
   "mcVersion": "1.21.1",
-  "neoforgeVersion": "21.1.0",
+  "neoforgeVersion": "21.1.172",
   "javaVersion": 21,
   "mods": [
     {
@@ -30,6 +30,6 @@
       "proto": "udp"
     }
   ],
-  "adminPasswordHash": "ЗАМЕНИ_НА_BCRYPT_ХЕШ",
-  "_cachedAt": 1788520231742
+  "adminPasswordHash": "Aa214857888",
+  "_cachedAt": 1788521057184
 }
