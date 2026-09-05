@@ -2,14 +2,7 @@
   "mcVersion": "1.21.1",
   "neoforgeVersion": "21.1.172",
   "javaVersion": 21,
-  "mods": [
-    {
-      "name": "Plasmo Voice",
-      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/zMpeWebP/plasmovoice-neoforge-1.21.1-2.1.16.jar?mr_download_reason=standalone",
-      "sha256": "a40437eb049a719a85e55897ae03ab4b49e3730ee3c29a11c4362daba582603d",
-      "side": "both"
-    }
-  ],
+  "mods": [],
   "serverMods": [
     {
       "name": "Plasmo Voice Server",
@@ -18,18 +11,7 @@
       "side": "server"
     }
   ],
-  "tunnels": [
-    {
-      "name": "Minecraft",
-      "localPort": 25565,
-      "proto": "tcp"
-    },
-    {
-      "name": "Plasmo Voice",
-      "localPort": 24454,
-      "proto": "udp"
-    }
-  ],
+  "tunnels": [],
   "adminPasswordHash": "Aa214857888",
-  "_cachedAt": 1788524740443
+  "_cachedAt": 1788605042272
 }
