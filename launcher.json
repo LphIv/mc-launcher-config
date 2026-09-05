@@ -2,7 +2,14 @@
   "mcVersion": "1.21.1",
   "neoforgeVersion": "21.1.172",
   "javaVersion": 21,
-  "mods": [],
+  "mods": [
+    {
+      "name": "Plasmo Voice",
+      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/zMpeWebP/plasmovoice-neoforge-1.21.1-2.1.16.jar?mr_download_reason=standalone",
+      "sha256": "",
+      "side": "both"
+    }
+  ],
   "serverMods": [
     {
       "name": "Plasmo Voice Server",
@@ -13,5 +20,5 @@
   ],
   "tunnels": [],
   "adminPasswordHash": "Aa214857888",
-  "_cachedAt": 1788605042272
+  "_cachedAt": 1788626170196
 }
